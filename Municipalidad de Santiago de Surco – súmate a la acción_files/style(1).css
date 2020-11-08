@@ -1,0 +1,74 @@
+/*
+Theme Name: Municipalidad de Santiago de Surco - MSS
+Theme URL: https://www.munisurco.gob.pe
+Description: Tema del sitio web de la Municipalidad de Santiago de Surco, súmate a la acción
+Author: GTI - MSS
+Author URL: https://www.munisurco.gob.pe
+Template: dream-city
+Version: 1.0.0
+Text Domain: dream-city
+*/ 
+
+.whatsappme__copy{display:none;}
+
+.cmsmasters_slider_post .cmsmasters_slider_post_footer > span.cmsmasters_slider_post_date {
+background-color: transparent;
+color: #0080c5;
+}
+
+.cmsmasters_slider_post a.cmsmasters_slider_post_read_more
+{
+    background-color: #39aa35;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+.cmsmasters_column_inner .cmsmasters_text{
+	padding: 0 5px;
+}
+
+.text-3-lines {
+  overflow: hidden;
+  position: relative; 
+  line-height: 1.2em;
+  max-height: 3.6em; 
+  text-align: inherit;  
+  /*margin-right: -1em;
+  padding-right: 1em;*/
+}
+
+.text-3-lines:before {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.text-3-lines:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: inherit;
+  height: 1em;
+  margin-top: 0.2em;
+  background: white;
+}
+
+.cmsmasters_slider_post .cmsmasters_slider_post_content,
+.cmsmasters_slider_post .cmsmasters_slider_post_header .cmsmasters_slider_post_title a {
+  line-height: 1em;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  display: box;
+  display: -ms-flexbox;
+}
+
+.cmsmasters_slider_post .cmsmasters_slider_post_content {line-height:1.15em; height: 4em;}
+.cmsmasters_slider_post .cmsmasters_slider_post_header .cmsmasters_slider_post_title a {height:3em;}
+.post_nav > span.cmsmasters_prev_post, .post_nav > span.cmsmasters_next_post{ width: 50%;} 
+.post_nav > span.cmsmasters_next_post a {float: right;}
+.cmsmasters_archive_type .cmsmasters_archive_item_info .cmsmasters_archive_item_user_name{display:none;}
